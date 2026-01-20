@@ -1,0 +1,179 @@
+                        /*header principal*/
+.header{
+    display: flex;          
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 5%;      
+    background-color: #f8f8f8; 
+}
+
+.titulo-empresa{
+
+    color: brown;
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+.titulo-empresa{
+
+    text-align: center;
+
+}
+
+.logo {
+    width: 100px;            
+    height: auto;
+}
+
+.links-header{
+    display: grid;
+    grid-column: auto;
+    row-gap: 5px;
+    margin-left: 20px;      
+    text-decoration: none;
+    color: blue;            
+}
+
+
+
+                            /*titulos principales*/
+
+
+
+.titulo-index{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    background-color: whitesmoke;
+    max-width: 500px;
+    margin-left: 450px;
+    border-left: solid brown;
+    border-radius: 10px;
+    border-right: solid brown;
+}
+
+.titulo{
+
+    border-radius: 7px;
+    box-shadow: 5px 2px 1px 1px whitesmoke;
+
+}
+
+.titulo-secc-ind{
+
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border-left: brown solid 4px;
+    border-right: brown solid 4px;    
+
+}
+
+                            /*precios*/
+.precios{
+
+    color: blue;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    max-width: 80px;
+    margin: auto;
+    
+
+}
+
+
+
+                            /* secciones en gral*/
+.products{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+        
+}
+
+.seccion{
+
+    color: brown;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+                                /* footers */
+
+.footer{
+    color: black;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+.titulo-footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border-bottom: 5px solid black;
+    padding-bottom: 1px;
+
+}
+
+                            /* pagina sobre nosotros */
+
+.texto-relleno{
+    background-color: rgb(193, 116, 116);
+    max-width: 800px;
+    text-align: center;
+    margin-left: 300px;
+    border-radius: 10px;
+    border-left: 5px solid rgb(107, 60, 10);
+    margin-bottom: 100px;
+
+}
+
+
+.titulo-sobrenosotros{
+    text-align: center;
+    color: brown;
+    border-radius: 15px;
+    background-color: rgb(226, 117, 117);
+    border-left: solid rgb(83, 56, 16);
+    margin-bottom: 50px;
+    
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+
+
+.preguntas-frecuentes{
+
+    margin-left: 20px;
+}
+
+
+.boton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 35px;
+    background-color: var(--color-principal);
+    color: var(--color-texto);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    box-shadow: 0 4px 0px var(--color-oscuro);
+    transition: all 0.2s ease-in-out;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
