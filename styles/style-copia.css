@@ -1,6 +1,7 @@
                         /*header principal*/
 .header{
-    display: flex;          
+    display: flex;
+    flex-direction: row;          
     justify-content: space-between; 
     align-items: center;
     padding: 10px 5%;      
@@ -15,11 +16,7 @@
 
 }
 
-.titulo-empresa{
 
-    text-align: center;
-
-}
 
 .logo {
     width: 100px;            
@@ -27,11 +24,9 @@
 }
 
 .links-header{
-    display: grid;
-    grid-column: auto;
-    row-gap: 5px;
-    margin-left: 20px;      
-    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;    
     color: blue;            
 }
 
@@ -47,7 +42,7 @@
     color: brown;
     background-color: whitesmoke;
     max-width: 500px;
-    margin-left: 450px;
+    margin-left: 400px;
     border-left: solid brown;
     border-radius: 10px;
     border-right: solid brown;
@@ -162,18 +157,3 @@
 }
 
 
-.boton{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 35px;
-    background-color: var(--color-principal);
-    color: var(--color-texto);
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 8px;
-    box-shadow: 0 4px 0px var(--color-oscuro);
-    transition: all 0.2s ease-in-out;
-    font-family: 'Segoe UI', Arial, sans-serif;
-}

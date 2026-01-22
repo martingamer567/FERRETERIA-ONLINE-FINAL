@@ -1,3 +1,54 @@
+/*MAIN*/
+.seccion {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.seccion:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
 
+.boton {
+  padding: 14px 22px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ff7a18, #ffb347);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+.boton:hover {
+  transform: scale(1.06);
+  box-shadow: 0 10px 20px rgba(255, 122, 24, 0.4);
+}
+.boton:active {
+  transform: scale(0.97);
+}
+.boton::after {
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 120%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: all 0.6s ease;
+}
+.boton:hover::after {
+  left: 120%;
+}
+
+/*HEADER*/
+.logo {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.logo:hover {
+  transform: scale(1.08);
+}
 
 /*# sourceMappingURL=style.css.map */
